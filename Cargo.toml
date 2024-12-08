@@ -1,0 +1,10 @@
+[package]
+name = "csv_deduper"
+authors = ["CliffJumper"]
+edition = "2021"
+description = "A tool to read a CSV file and create a new one with duplicate lines removed"
+license = "MIT"
+version = "0.1.0"
+
+[dependencies]
+csv = "1.3.1"
